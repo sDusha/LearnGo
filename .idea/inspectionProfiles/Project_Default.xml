@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoDfaErrorMayBeNotNil" enabled="true" level="WARNING" enabled_by_default="true">
+      <functions>
+        <function importPath="awesomeProject/Yandex" name="UnderLimit" />
+      </functions>
+    </inspection_tool>
+    <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
+      <functions>
+        <function importPath="math/rand" name="Read" />
+        <function importPath="fmt" name="Printf" />
+        <function importPath="fmt" name="Print" />
+        <function importPath="errors" name="New" />
+        <function importPath="fmt" name="Println" />
+        <function importPath="fmt" name="Errorf" />
+        <function importPath="errors" name="Join" />
+        <function importPath="errors" name="Unwrap" />
+        <function importPath="fmt" name="Fscanf" />
+        <function importPath="fmt" name="Fprintln" />
+        <function importPath="fmt" name="Fprint" />
+      </functions>
+      <methods>
+        <method importPath="strings" receiver="*Builder" name="WriteString" />
+        <method importPath="bytes" receiver="*Buffer" name="WriteRune" />
+        <method importPath="strings" receiver="*Builder" name="WriteByte" />
+        <method importPath="hash" receiver="Hash" name="Write" />
+        <method importPath="bytes" receiver="*Buffer" name="WriteString" />
+        <method importPath="strings" receiver="*Builder" name="WriteRune" />
+        <method importPath="bytes" receiver="*Buffer" name="Write" />
+        <method importPath="bytes" receiver="*Buffer" name="WriteByte" />
+        <method importPath="strings" receiver="*Builder" name="Write" />
+        <method importPath="math/rand" receiver="*Rand" name="Read" />
+        <method importPath="bufio" receiver="*Writer" name="Flush" />
+      </methods>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="list.find" />
+          <option value="vk_api" />
+          <option value="tuple.__setitem__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
